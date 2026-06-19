@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JS Session — A Vanilla JavaScript Drum Machine</title>
+<meta name="description" content="A 16-step drum machine and synth built in plain JavaScript: precise Web Audio scheduling, a canvas frequency visualizer, hand-rolled draggable knobs, and a tiny pub/sub state store. No frameworks, no build step." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <p class="eyebrow">A companion piece to CSS Recital</p>
+  <h1>JS Session</h1>
+  <p class="lede">A 16-step drum machine that builds its own interface, schedules its own audio, and draws its own visualizer — almost entirely in JavaScript.</p>
+</header>
+
+<!-- Everything below this line is assembled by js/main.js -->
+<div id="app"></div>
+
+<footer class="site-footer">
+  <p>No frameworks. No build step. <kbd>Space</kbd> play/pause · <kbd>R</kbd> randomize.</p>
+  <a href="https://github.com/Tortokiller" target="_blank" rel="noopener noreferrer">github.com/Tortokiller</a>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
